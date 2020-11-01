@@ -28,15 +28,25 @@ class Application:
     def destroy(self):
         self.wd.quit()
 
-    def go_to_calculator(self):
-        wd = self.wd
-        wd.get(self.base_url)
-
     def get_instruments_list(self):
         wd = self.wd
         elements = wd.find_elements(By.NAME, "forex")
         instruments = re.split("\n", elements[0].text)
         return instruments
+
+    def choose_account_type(self,element):
+        wd = self.wd
+        WebDriverWait(wd, 20).until(EC.visibility_of_element_located((By.XPATH, "//select[@name='account_type']"))).click()
+
+        #wd.find_element_by_xpath("//select[@name='account_type']").click()
+        WebDriverWait(wd, 20).until(EC.visibility_of_element_located((By.XPATH, f"//option[text()={element}]"))).click()
+
+    def choose_instrument(self,element):
+        wd = self.wd
+        wd.find_element_by_xpath("//select[@name='Forex']").click()
+        WebDriverWait(wd, 20).until(EC.visibility_of_element_located((By.XPATH, f"//option[text()={element}]"))).click()
+        #wd.find_element_by_xpath(f"//option[text()={element}]").click()
+        time.sleep(5)
 
     # def click_calculate(self):
     #     wd = self.wd

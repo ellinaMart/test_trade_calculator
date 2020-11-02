@@ -11,7 +11,7 @@ def test_generate_data(app):
     # with allure.step("Получаем список инструментов для формы standart и генерируем тестовые данные в файл data/parameters.json"):
     app[1].open_calculator_page()
     instruments = app[1].get_instruments_list()
-    generate_data(instruments)
+    generate_data()
 
 #@allure.feature('API TEST: Get and check data parameters')
 @pytest.mark.parametrize('data_params', data_parameters, ids=[repr(x) for x in data_parameters])
@@ -24,10 +24,6 @@ def test_calc(app, data_params):
     assert resp.status_code == 200
 
     #with allure.step("Проверяем параметр margin по формулам"):
-    AUDUSD = resp.json()['conversion_pairs']['AUDUSD']
-    margin = app[1].calculate_margin(data_params[0], AUDUSD)
-    assert resp.json()["margin"] == margin
-
-
-
-
+    conversion_factor = resp.json()['conversion_pairs']
+    margin = app[1].calculate_margin(data_params[0], conversion_factor)
+    assert resp.json()["margin"] == str(margin)

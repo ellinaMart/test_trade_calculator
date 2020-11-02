@@ -22,8 +22,8 @@ def test_calculate(app, params):
 
     # with allure.step('Рассчитываем margin и сравниваем со значением на странице'):
     margin_ui = app[1].get_margin()
-    AUDUSD = app[1].get_audusd()
-    margin_calc = app[1].calculate_margin(params,AUDUSD)
+    conversion_factor = app[1].get_conversion_factor()
+    margin_calc = app[1].calculate_margin(params,conversion_factor)
     assert margin_ui == margin_calc
 
 

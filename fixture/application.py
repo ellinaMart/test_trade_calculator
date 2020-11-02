@@ -39,8 +39,8 @@ class Application:
 
     def get_instruments_list(self):
         wd = self.wd
-        elements = wd.find_elements(By.NAME, "forex")
-        instruments = re.split("\n", elements[0].text)
+        elements = WebDriverWait(wd, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '[data-auto="forex"]')))
+        instruments = re.split("\n", elements.text)
         return instruments
 
     def choose_account_type(self,element):
@@ -71,4 +71,28 @@ class Application:
     def get_margin(self):
         wd = self.wd
         element = wd.find_element(By.CSS_SELECTOR, ".table__body .table__cell:nth-child(1)")
-        return element.text
+        return float(re.split(' ', element.text)[0])
+
+    def get_audusd(self):
+        wd = self.wd
+        element = wd.find_element_by_xpath('//div[@class="formula formula--no-border"]//div[@class="formula__item"]/div[1]/p')
+        print(element.text)
+        return round(float(element.text),5)
+
+    def calculate_margin(self,data_params,AUDUSD):
+        margin_with_leverage = ['AUDCADm','AUDCHFm','AUDGBPm','AUDJPYm','AUDNZDm','AUDUSDm','CADCHFm','CADJPYm',
+                                'CHFJPYm','EURAUDm','EURCADm','EURCHFm','EURGBPm','EURJPYm','EURNZDm','EURUSDm',
+                                'GBPAUDm','GBPCADm','GBPCHFm','GBPJPYm','GBPNZDm','GBPUSDm','HKDJPYm','NZDCADm',
+                                'NZDJPYm','NZDUSDm','USDCADm','USDCHFm','USDCNHm','USDHKDm','USDJPYm','USDTHBm',
+                                'XAGAUDm','XAGEURm','XAGGBPm','XAGUSDm','XAUAUDm','XAUEURm','XAUGBPm','XAUUSDm']
+        if data_params["symbol"] in margin_with_leverage:
+            contract_size = 100000
+            margin = round(float(data_params['lot']) * contract_size / int(data_params['leverage']) * AUDUSD,2)
+            return margin
+        else:
+            required_margin = 0.5
+            contract_size = 100000
+            margin = float(data_params['lot']) * contract_size * required_margin / 100
+            assert resp.json()["margin"] == str(round(margin* resp.json()['conversion_pairs']['AUDUSD'] * 100, 2))
+
+

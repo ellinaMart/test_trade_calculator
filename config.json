@@ -1,5 +1,4 @@
 {
   "api_calculator" : "https://www.exness.com/api/calculator/calculate/",
-  "base_url" : "https://www.exness.com",
   "url_calculator" : "https://www.exness.com/calculator/"
 }

@@ -13,7 +13,8 @@ def app(request):
     config  = json.load(config_file)
   if fixture is None:
    fixture = Application(browser= "firefox", base_url = config['url_calculator'])
-   fixture.open_calculator_page()
+   #fixture.open_calculator_page()
+
   request.addfinalizer(fixture.destroy)
   return config, fixture
 

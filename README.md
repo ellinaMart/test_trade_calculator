@@ -17,6 +17,7 @@
 pip install pytest
 pip install requests
 pip install allpairspy
+pip install selenium
 
 #установка и запуск виртуального окружения
 virtualenv venv

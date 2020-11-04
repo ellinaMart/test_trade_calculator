@@ -85,8 +85,11 @@ class Application:
                       'XPDUSDm': 'XPDUSD',
                       'BTCJPYm': 'BTCUSD',
                       'BCHUSDm': 'BCHUSD'}
+        element = wd.find_element_by_xpath(f'//p/ancestor::div//span[contains(text(), {conversion[instrument]})]')
 
-        element = wd.find_element_by_xpath('//div[@class="formula formula--no-border"]//div[@class="formula__item"]/div[1]/p')
+       # element = driver.find_element_by_xpath( "// * [text() = 'Square'] / ancestor::div // * [text() = 'Black']")
+
+        # element = wd.find_element_by_xpath('//div[@class="formula formula--no-border"]//div[@class="formula__item"]/div[1]/p')
         print(element.text)
         return round(float(element.text),5)
 

@@ -1,0 +1,452 @@
+[
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 0.01,
+      "symbol": "EURDKK",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 0.1,
+      "symbol": "AUDSEK",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 1,
+      "symbol": "USDMXN",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 100,
+      "symbol": "XPDUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 999999,
+      "symbol": "BTCJPY",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 999999,
+      "symbol": "BCHUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 100,
+      "symbol": "AUDCHF",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 1,
+      "symbol": "XAGAUD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 0.1,
+      "symbol": "XAUUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 0.01,
+      "symbol": "XAUUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 0.01,
+      "symbol": "XAGAUD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 999999,
+      "symbol": "AUDCHF",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 0.1,
+      "symbol": "BCHUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 1,
+      "symbol": "BTCJPY",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 1,
+      "symbol": "XPDUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 100,
+      "symbol": "USDMXN",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 100,
+      "symbol": "AUDSEK",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 999999,
+      "symbol": "EURDKK",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 0.1,
+      "symbol": "EURDKK",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 999999,
+      "symbol": "AUDSEK",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 999999,
+      "symbol": "USDMXN",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 0.01,
+      "symbol": "XPDUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 0.01,
+      "symbol": "BTCJPY",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 0.01,
+      "symbol": "BCHUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 0.01,
+      "symbol": "AUDCHF",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 999999,
+      "symbol": "XAGAUD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 999999,
+      "symbol": "XAUUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 100,
+      "symbol": "XAUUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 100,
+      "symbol": "XAGAUD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 0.1,
+      "symbol": "AUDCHF",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 100,
+      "symbol": "BCHUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 100,
+      "symbol": "BTCJPY",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 999999,
+      "symbol": "XPDUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 0.01,
+      "symbol": "USDMXN",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 0.01,
+      "symbol": "AUDSEK",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 100,
+      "symbol": "EURDKK",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 1,
+      "symbol": "EURDKK",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 1,
+      "symbol": "AUDSEK",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 0.1,
+      "symbol": "USDMXN",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 0.1,
+      "symbol": "XPDUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 0.1,
+      "symbol": "BTCJPY",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 1,
+      "symbol": "BCHUSD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 1,
+      "symbol": "AUDCHF",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 0.1,
+      "symbol": "XAGAUD",
+      "user_currency": "USD"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 1,
+      "symbol": "XAUUSD",
+      "user_currency": "USD"
+    }
+  ]
+]

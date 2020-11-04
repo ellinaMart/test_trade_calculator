@@ -12,6 +12,13 @@
  2. Выбираем параметры и нажимаем рассчитать
  3. Рассчитываем margin и сравниваем со значением на странице
 
+
+## Cгенерированы матрицы значений для разных form_type в папке data 
+ - form_type=mini сгенерировано 44 тест кейса в data/parameters_mini.json
+ - form_type=classic сгенерировано 44 тест кейса в data/parameters_classic.json
+ - form_type=cent сгенерировано 19 тест кейсов в data/parameters_cent.json
+
+
 ## перед запуском тестов необходимо установить:
  ```
  pip install pytest

@@ -1,0 +1,202 @@
+[
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 0.01,
+      "symbol": "AUDCHFc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 0.1,
+      "symbol": "XAGUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 1,
+      "symbol": "XAUUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 100,
+      "symbol": "XAUUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 999999,
+      "symbol": "XAGUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 999999,
+      "symbol": "AUDCHFc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 100,
+      "symbol": "AUDCHFc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 1,
+      "symbol": "XAGUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 0.01,
+      "symbol": "XAUUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 0.1,
+      "symbol": "XAUUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 0.01,
+      "symbol": "XAGUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 0.1,
+      "symbol": "AUDCHFc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 1,
+      "symbol": "AUDCHFc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 100,
+      "symbol": "XAGUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 999999,
+      "symbol": "XAUUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 999999,
+      "symbol": "XAUUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2,
+      "lot": 100,
+      "symbol": "XAUUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 10,
+      "lot": 1,
+      "symbol": "XAUUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 100,
+      "lot": 0.1,
+      "symbol": "XAUUSDc",
+      "user_currency": "USC"
+    }
+  ],
+  [
+    {
+      "instrument": "Forex",
+      "form_type": "cent",
+      "leverage": 2000,
+      "lot": 0.01,
+      "symbol": "XAUUSDc",
+      "user_currency": "USC"
+    }
+  ]
+]

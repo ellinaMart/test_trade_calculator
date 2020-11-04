@@ -92,10 +92,6 @@ class Application:
             #element = wd.find_element_by_xpath(f'//span[contains(text(), "{conversion[instrument]}")]/ancestor::div/p')
             print(element.text)
             return round(float(element.text), 5)
-       # element = driver.find_element_by_xpath( "// * [text() = 'Square'] / ancestor::div // * [text() = 'Black']")
-
-        # element = wd.find_element_by_xpath('//div[@class="formula formula--no-border"]//div[@class="formula__item"]/div[1]/p')
-
 
     def calculate_with_leverage(self,data_params,conversion_factor,conversion):
         contract_size = {

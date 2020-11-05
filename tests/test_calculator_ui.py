@@ -7,7 +7,7 @@ from data.parameters import data_parameters
 def test_open_page(app):
     with allure.step('Открываем страницу калькулятора'):
         app.open_calculator_page()
-        assert app.get_path_current_url() == '/calculator/'
+        assert '/calculator' in app.get_path_current_url()
 
 @allure.feature('UI TEST: Check and calculate parameters')
 @pytest.mark.parametrize('params', data_parameters, ids=[repr(x) for x in data_parameters])

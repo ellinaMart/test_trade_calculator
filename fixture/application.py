@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 
 
 class Application:
-    def __init__(self, browser, base_url):
+    def __init__(self, browser, base_url, api_url):
         if browser == "firefox":
             self.wd = webdriver.Firefox()
         elif browser == "chrome":
@@ -21,6 +21,7 @@ class Application:
         else:
             raise ValueError("Unrecognized browser %s" %browser)
         self.base_url = base_url
+        self.api_url = api_url
 
     def open_calculator_page(self):
         wd = self.wd

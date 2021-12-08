@@ -49,7 +49,7 @@ class BasePage:
                 body = self.driver.get_screenshot_as_png(),
                 attachment_type = allure.attachment_type.PNG
             )
-            raise AssertionError(f"Element {selector} not found on page!")
+            raise AssertionError(f"Element {link_text} not found on page!")
         return element
 
     def _click(self, selector, index=0):

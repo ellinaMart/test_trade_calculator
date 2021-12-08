@@ -34,14 +34,15 @@ source venv/bin/activate
 ## install allure
 `
 pip install allure-pytest
+brew install allure
 `
 ## создали папку с отчетом
 `
-pytest --alluredir ../reports
+pytest --alluredir allure-results
 `
 ## запускаем allure с отчетом в папке reports
 `
-allure serve reports
+allure serve allure-results
 `
 ## запуск тестов из папки tests с allure
 `

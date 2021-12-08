@@ -3,6 +3,12 @@ import pytest
 from page_objects.MainPage import MainPage
 from page_objects.CalculatorPage import CalculatorPage
 from data.parameters import data_parameters
+from generator.input_params import generate_data
+
+
+@allure.feature('API TEST: Generate data and put to file data/parameters_mini.json')
+def test_generate_data():
+    generate_data()
 
 
 @allure.feature('UI TEST: search calculator')
@@ -28,6 +34,7 @@ def test_open_page(browser):
     MainPage(browser) \
         .open_calculator_page() \
         .check_path_current_url()
+
 
 @allure.feature('UI TEST: Check and calculate parameters for Standard account type')
 @pytest.mark.parametrize('params', data_parameters, ids=[repr(x) for x in data_parameters])

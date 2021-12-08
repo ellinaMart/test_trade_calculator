@@ -1,6 +1,7 @@
 import pytest
 import os
 import logging
+import json
 
 from selenium import webdriver
 
@@ -67,6 +68,12 @@ def get_environment(pytestconfig):
     with open(f'{tests_root}/allure-results/environment.properties', 'w') as f:
         for k, v in props.items():
             f.write(f'{k}={v}\n')
+
+@pytest.fixture
+def get_api_url():
+    with open(os.path.join(os.path.dirname(__file__), 'config.json')) as config_file:
+        config  = json.load(config_file)
+    return config
 
 # @pytest.fixture
 # def browser(request):

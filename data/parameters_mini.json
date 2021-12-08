@@ -1,12 +1,11 @@
 [
   [
     {
-      "instrument": "Forex",
-      "form_type": "mini",
+      "account_type": "mini",
       "leverage": 2,
       "lot": 0.01,
-      "symbol": "EURDKKm",
-      "user_currency": "USD"
+      "instrument": "EURDKKm",
+      "currency": "USD"
     }
   ]
 ]

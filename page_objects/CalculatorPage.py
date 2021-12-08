@@ -2,11 +2,13 @@ import re
 import allure
 
 from .BasePage import BasePage
+from generator.input_params import generate_data
 
 class CalculatorPage(BasePage):
     ACCOUNT_TYPE = {'css': '[name="account_type"]'}
     STANDARD = {'css': 'option[value="mt5_mini_real_vc"]'}
     INSTRUMENT_LIST = {'css': 'select[name="instrument"]'}
+    INSTRUMENTS_ALL = {'css': 'select[name="instrument"] .option'}
     LOT = {'css': 'input[class="inp__field"]'}
     CALCULATE = {'css': 'button[data-auto="btn-calc"]'}
     MARGIN = {'css': '.table__body .table__cell:nth-child(1)'}
@@ -14,13 +16,19 @@ class CalculatorPage(BasePage):
     LANGUAGE_DROPDOWN = {'css': '[id="language-icon"]'}
     LANGUAGE = {'css': '[data="pt"]'}
 
+
     @allure.step("Get instrument list")
     def get_instruments_list(self):
-        self._click(self.INSTRUMENT_LIST)
+        self.__element(self.INSTRUMENTS_ALL)
         import pdb; pdb.set_trace()
        # elements = WebDriverWait(wd, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '[data-auto="forex"]')))
         #instruments = re.split("\n", elements.text)
         #return instruments
+
+    @allure.step("Generate test data pairwise")
+    def generate_data(self):
+        instruments = self.get_instruments_list()
+        generate_data(instruments)
 
     @allure.step("Choose account type")
     def choose_account_type(self):

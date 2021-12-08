@@ -44,6 +44,6 @@ def test_calculate(browser, params):
 def test_check_parameters(browser):
     browser.open('/calculator/')
     CalculatorPage(browser) \
-        .check_margin() \
-        .check_pip_value()
+        .check_margin()
+       # .check_pip_value()
 

@@ -3,4 +3,3 @@ requests==2.26.0
 allpairspy==2.5.0
 selenium==4.1.0
 allure-pytest==2.9.45
-allure==2.16.1

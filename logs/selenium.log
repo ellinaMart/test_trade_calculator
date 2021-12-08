@@ -1,0 +1,518 @@
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111075a30>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0177e056dfcc9b38e9e0562bdb6ef3c6
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111075c70>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0177e056dfcc9b38e9e0562bdb6ef3c6
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111075f40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0177e056dfcc9b38e9e0562bdb6ef3c6
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.zJjHya'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:62839'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.3pKOTg'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:63714'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109e44d00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/abb24d5396ccbb3fa6dfca7d8826eafa
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109e44d60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/abb24d5396ccbb3fa6dfca7d8826eafa
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109e44fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/abb24d5396ccbb3fa6dfca7d8826eafa
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.luTTvr'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:63841'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.amCPsn'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:64005'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.HO87C5'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:51417'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '#languageselector'}
+INFO:CalculatorPage:Find element {'css': '#languageselector'}
+INFO:CalculatorPage:Clicking element: {'css': '#languageselector'}
+INFO:CalculatorPage:Find element {'css': '#languageselector'}
+INFO:CalculatorPage:Clicking element: {'css': '#languageselector'}
+INFO:CalculatorPage:Find element {'css': '#languageselector'}
+INFO:CalculatorPage:Clicking element: {'css': '#languageselector'}
+INFO:CalculatorPage:Find element {'css': '#languageselector'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.rRPnuB'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:52358'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.AvG8fE'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:52664'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.AwwClU'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:57165'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Input calculator in input {'css': '#searchBox'}
+INFO:MainPage:Find element {'css': '#searchBox'}
+INFO:MainPage:Clicking element: {'css': '[data-auto="search-submit"]'}
+INFO:MainPage:Find element {'css': '[data-auto="search-submit"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.3FBfxM'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:57339'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.NRUEbj'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:58154'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1048b1e20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/577a1aa78a4ab5e783997aafc88774c7
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1048b1a90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/577a1aa78a4ab5e783997aafc88774c7
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1048b18e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/577a1aa78a4ab5e783997aafc88774c7
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.yor6HN'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:58733'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.Yx1n4T'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:58993'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.OYH2ZB'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:59909'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.VhFdNl'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:60324'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x110e68910>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/08b6e6709a9f2722a0f0853f0c6e5855
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x110e68d60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/08b6e6709a9f2722a0f0853f0c6e5855
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x110e68fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/08b6e6709a9f2722a0f0853f0c6e5855
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.u0nLHM'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:61509'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Input calculator in input {'css': '#searchBox'}
+INFO:MainPage:Find element {'css': '#searchBox'}
+INFO:MainPage:Clicking element: {'css': '[data-auto="search-submit"]'}
+INFO:MainPage:Find element {'css': '[data-auto="search-submit"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.CE4Nbt'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:61664'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.eq3elw'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:62260'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Input calculator in input {'css': '#searchBox'}
+INFO:MainPage:Find element {'css': '#searchBox'}
+INFO:MainPage:Clicking element: {'css': '[data-auto="search-submit"]'}
+INFO:MainPage:Find element {'css': '[data-auto="search-submit"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.bCGWBd'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:62406'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.IkTgSR'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:62704'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Input calculator in input {'css': '#searchBox'}
+INFO:MainPage:Find element {'css': '#searchBox'}
+INFO:MainPage:Clicking element: {'css': '[data-auto="search-submit"]'}
+INFO:MainPage:Find element {'css': '[data-auto="search-submit"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.MKDcrr'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:62977'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_open_page started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.Q0eoyD'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:63095'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.cLKof4'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:63876'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.vo1Xh4'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:54188'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:BrowserLogger:===> Test test_check_parameters started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.ohJm42'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:54325'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.pwvFkg'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:54722'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.LKUyK4'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:54879'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.PbODMh'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:58626'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.zZ1A2S'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:58763'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.5vsEYm'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:59087'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.eKIm5f'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:59225'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.75pome'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:59567'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.zts0Vx'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:59704'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.k68Ec6'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:59916'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:BrowserLogger:===> Test test_check_parameters[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.FlQE9Y'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:60055'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.23h9bG'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:60630'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.zxS1RZ'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:60768'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.Acl3Rh'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:61582'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.4bJJ5C'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:61722'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.PNm3iR'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:63884'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.TX9GyB'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:64013'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.IvvvXF'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:64470'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.rgc9s2'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:64604'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.LmRTyo'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:64853'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.thBmOS'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:64992'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.NUxYmN'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:65454'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.9e1DPj'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:49230'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.t3m7ql'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:50512'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Input trading calculator in input {'css': '#searchBox'}
+INFO:MainPage:Find element {'css': '#searchBox'}
+INFO:MainPage:Clicking element: {'css': '[data-auto="search-submit"]'}
+INFO:MainPage:Find element {'css': '[data-auto="search-submit"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.M9Nh4h'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:50839'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_open_page started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.Uu6lkY'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:50981'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.ljT43Q'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:51116'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.0rdS1W'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:51249'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.hB73Ww'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:59148'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Input trading calculator in input {'css': '#searchBox'}
+INFO:MainPage:Find element {'css': '#searchBox'}
+INFO:MainPage:Clicking element: {'css': '[data-auto="search-submit"]'}
+INFO:MainPage:Find element {'css': '[data-auto="search-submit"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.AD4aW5'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:59910'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_open_page started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.rLssot'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:60045'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.sTqr2m'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:60180'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.V0evhs'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:60302'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.UCO6ZJ'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:61949'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Input trading calculator in input {'css': '#searchBox'}
+INFO:MainPage:Find element {'css': '#searchBox'}
+INFO:MainPage:Clicking element: {'css': '[data-auto="search-submit"]'}
+INFO:MainPage:Find element {'css': '[data-auto="search-submit"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.mnHrLz'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:62085'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_open_page started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.FhwFRX'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:62221'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:BrowserLogger:===> Test test_calculate[[{'instrument': 'Forex', 'form_type': 'mini', 'leverage': 2, 'lot': 0.01, 'symbol': 'EURDKKm', 'user_currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.xQTKyE'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:62339'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.NRUeNc'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:62463'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}

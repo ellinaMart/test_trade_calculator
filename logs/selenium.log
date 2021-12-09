@@ -870,3 +870,113 @@ INFO:CalculatorPage:Clicking element: {'css': 'li[data-auto="main_menu_Converter
 INFO:CalculatorPage:Find element {'css': 'li[data-auto="main_menu_Converter"]'}
 INFO:BrowserLogger:===> Test test_generate_data started
 INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.Yz43nr'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:54196'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:BrowserLogger:===> Test test_generate_data started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.CB9fzQ'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:56052'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.Lnmnyi'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:56109'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Input trading calculator in input {'css': '#searchBox'}
+INFO:MainPage:Find element {'css': '#searchBox'}
+INFO:MainPage:Clicking element: {'css': '[data-auto="search-submit"]'}
+INFO:MainPage:Find element {'css': '[data-auto="search-submit"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.tLR1VL'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:56278'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_open_page started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.827MwN'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:56390'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:BrowserLogger:===> Test test_calculate[[{'account_type': 'mini', 'leverage': 2, 'lot': 0.01, 'instrument': 'EURDKKm', 'currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.h34Eln'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:56505'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.4DddVU'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:56626'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_check_converter started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.nDK4Pi'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:56723'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:CalculatorPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'li[data-auto="main_menu_Converter"]'}
+INFO:CalculatorPage:Find element {'css': 'li[data-auto="main_menu_Converter"]'}
+INFO:BrowserLogger:===> Test test_check_calendar started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.gFEbSF'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:56835'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:CalculatorPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:CalculatorPage:Clicking element: {'cass': 'li[data-auto="main_menu_Calendar]'}
+INFO:CalculatorPage:Find element {'cass': 'li[data-auto="main_menu_Calendar]'}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.dkBEVE'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:57397'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Input trading calculator in input {'css': '#searchBox'}
+INFO:MainPage:Find element {'css': '#searchBox'}
+INFO:MainPage:Clicking element: {'css': '[data-auto="search-submit"]'}
+INFO:MainPage:Find element {'css': '[data-auto="search-submit"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.83Q3BY'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:57632'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_open_page started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.U7S5GJ'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:57747'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:BrowserLogger:===> Test test_calculate[[{'account_type': 'mini', 'leverage': 2, 'lot': 0.01, 'instrument': 'EURDKKm', 'currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.FfE1UU'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:58015'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.hmiNQI'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:58135'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_check_converter started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.cYHPG7'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:58234'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:CalculatorPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'li[data-auto="main_menu_Converter"]'}
+INFO:CalculatorPage:Find element {'css': 'li[data-auto="main_menu_Converter"]'}
+INFO:BrowserLogger:===> Test test_check_calendar started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.WRzTDv'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:58393'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:CalculatorPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:CalculatorPage:Clicking element: {'cass': 'li[data-auto="main_menu_Calendar"]'}
+INFO:CalculatorPage:Find element {'cass': 'li[data-auto="main_menu_Calendar"]'}

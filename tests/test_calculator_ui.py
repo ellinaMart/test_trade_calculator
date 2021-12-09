@@ -62,9 +62,10 @@ def test_check_converter(browser):
         .go_to_converter() \
         .check_path_converter_url()
 
-# @allure.feature('UI TEST: Register user')
-# def test_register_user(browser):
-#     browser.open('/calculator/')
-#     CalculatorPage(browser) \
-#         .input_email() \
-#         .choose_country()
+
+@allure.feature('UI TEST: Check economic calendar')
+def test_check_calendar(browser):
+    browser.open('/calculator/')
+    CalculatorPage(browser) \
+        .go_to_calendar() \
+        .check_path_calendar_url()

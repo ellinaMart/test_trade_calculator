@@ -16,6 +16,7 @@ class CalculatorPage(BasePage):
     LANGUAGE = {'css': '[data="pt"]'}
     TOOLS_SERVICES = {'css': 'li[data-auto="main_menu_Tools___Services"]'}
     CONVERTER = {'css': 'li[data-auto="main_menu_Converter"]'}
+    CALENDAR = {'css': 'li[data-auto="main_menu_Calendar"]'}
 
 
     @allure.step("Get instrument list")
@@ -91,6 +92,17 @@ class CalculatorPage(BasePage):
     def check_path_converter_url(self):
         path = self._get_current_url()
         assert '/converter' in path
+
+    @allure.step("Go to calendar page")
+    def go_to_calendar(self):
+        self._click(self.TOOLS_SERVICES)
+        self._click(self.CALENDAR)
+        return self
+
+    @allure.step("Check path on calendar page")
+    def check_path_calendar_url(self):
+        path = self._get_current_url()
+        assert '/calendar' in path
 
     def get_conversion_factor(self,data_params):
         instrument = data_params["symbol"]

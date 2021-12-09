@@ -2,7 +2,6 @@ import re
 import allure
 
 from .BasePage import BasePage
-from generator.input_params import generate_data
 
 class CalculatorPage(BasePage):
     ACCOUNT_TYPE = {'css': '[name="account_type"]'}
@@ -15,37 +14,40 @@ class CalculatorPage(BasePage):
     PIP = {'css': '.table__body .table__cell:nth-child(2)'}
     LANGUAGE_DROPDOWN = {'css': '[id="language-icon"]'}
     LANGUAGE = {'css': '[data="pt"]'}
+    #COUNTRY = {'css': '[autocomplete="new-password"] input[type="text"]'}
+    COUNTRY_LIST = {'css': '[classname="NKbJUCi8Jj_sznPXKVSPB"]'}
+    EMAIL = {'css': 'input[type="email"]'}
 
+
+    @allure.step("Choose country")
+    def choose_country(self):
+        self._wait_click(self.COUNTRY_LIST, index=0)
+        import pdb; pdb.set_trace()
+        return self
+
+    def input_email(self):
+        self._input(self.EMAIL, "test123_1@yopmail.com", index=1)
+        return self
 
     @allure.step("Get instrument list")
     def get_instruments_list(self):
         self.__element(self.INSTRUMENTS_ALL)
         import pdb; pdb.set_trace()
-       # elements = WebDriverWait(wd, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '[data-auto="forex"]')))
+       # elements = WebDriverWait(wd, 20).until(EC.visibility_of_element_loouated((By.CSS_SELECTOR, '[data-auto="forex"]')))
         #instruments = re.split("\n", elements.text)
         #return instruments
 
-    @allure.step("Generate test data pairwise")
-    def generate_data(self):
-        instruments = self.get_instruments_list()
-        generate_data(instruments)
+    # @allure.step("Generate test data pairwise")
+    # def generate_data(self):
+    #     instruments = self.get_instruments_list()
+    #     generate_data(instruments)
 
     @allure.step("Choose account type")
     def choose_account_type(self):
         self._wait_for_visible(self.ACCOUNT_TYPE)
         self._wait_click(self.ACCOUNT_TYPE)
         self._wait_click(self.STANDARD)
-
-        # element_text = self._get_element_text(self.ACCOUNT_TYPE)
-        # import pdb; pdb.set_trace()
-        # if element_text == "Standard":
-        #     pass
-        # else:
-        #     self._click(self.ACCOUNT_TYPE)
-        #     self._click(self.STANDARD)
         return self
-       # dropdown = WebDriverWait(wd, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '[data-auto="account_type"]')))
-       # dropdown.find_element(By.XPATH, f"//option[. = '{element}']").click()
 
     @allure.step("Choose instrument")
     def choose_instrument(self, element):
@@ -53,8 +55,6 @@ class CalculatorPage(BasePage):
         self._wait_click(self.INSTRUMENT_LIST)
         self._wait_click(instrument)
         return self
-        #dropdown = WebDriverWait(wd, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '[data-auto="forex"]')))
-        #dropdown.find_element(By.XPATH, f"//option[. = '{element}']").click()
 
     @allure.step("Change language")
     def change_language_to_pt(self):
@@ -73,11 +73,6 @@ class CalculatorPage(BasePage):
         self._input(self.LOT, lot, index=1)
         return self
 
-    # def choose_leverage(self, leverage):
-    #     wd = self.wd
-    #     dropdown = wd.find_element(By.CSS_SELECTOR, '[data-auto="leverage"]')
-    #     dropdown.find_element(By.XPATH, f"//option[. = '{leverage}']").click()
-
     @allure.step("Calculate")
     def click_calculate(self):
         self._click(self.CALCULATE)
@@ -86,7 +81,6 @@ class CalculatorPage(BasePage):
     @allure.step("Check margin")
     def check_margin(self):
         element_text = self._get_element_text(self.MARGIN)
-       # import pdb; pdb.set_trace()
         print(element_text)
         #margin_value = float(re.split(' ', element_text)[0])
         assert element_text is not None
@@ -175,4 +169,6 @@ class CalculatorPage(BasePage):
         else:
             margin = self.calculate_with_req_margin(data_params,conversion_factor, conversion)
             return margin
+
+
 

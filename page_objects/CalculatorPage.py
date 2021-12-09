@@ -14,26 +14,15 @@ class CalculatorPage(BasePage):
     PIP = {'css': '.table__body .table__cell:nth-child(2)'}
     LANGUAGE_DROPDOWN = {'css': '[id="language-icon"]'}
     LANGUAGE = {'css': '[data="pt"]'}
-    #COUNTRY = {'css': '[autocomplete="new-password"] input[type="text"]'}
-    COUNTRY_LIST = {'css': '[classname="NKbJUCi8Jj_sznPXKVSPB"]'}
-    EMAIL = {'css': 'input[type="email"]'}
+    TOOLS_SERVICES = {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+    CONVERTER = {'css': 'li[data-auto="main_menu_Converter"]'}
 
-
-    @allure.step("Choose country")
-    def choose_country(self):
-        self._wait_click(self.COUNTRY_LIST, index=0)
-        import pdb; pdb.set_trace()
-        return self
-
-    def input_email(self):
-        self._input(self.EMAIL, "test123_1@yopmail.com", index=1)
-        return self
 
     @allure.step("Get instrument list")
     def get_instruments_list(self):
         self.__element(self.INSTRUMENTS_ALL)
         import pdb; pdb.set_trace()
-       # elements = WebDriverWait(wd, 20).until(EC.visibility_of_element_loouated((By.CSS_SELECTOR, '[data-auto="forex"]')))
+       # elements = WebDriverWait(wd, 20).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '[data-auto="forex"]')))
         #instruments = re.split("\n", elements.text)
         #return instruments
 
@@ -91,6 +80,17 @@ class CalculatorPage(BasePage):
         print(element_text)
         #pip_value = float(re.split(' ', element_text)[0])
         assert element_text is not None
+
+    @allure.step("Go to converter page")
+    def go_to_converter(self):
+        self._click(self.TOOLS_SERVICES)
+        self._click(self.CONVERTER)
+        return self
+
+    @allure.step("Check path on converter page")
+    def check_path_converter_url(self):
+        path = self._get_current_url()
+        assert '/converter' in path
 
     def get_conversion_factor(self,data_params):
         instrument = data_params["symbol"]

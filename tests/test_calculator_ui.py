@@ -54,6 +54,14 @@ def test_check_parameters(browser):
         .check_margin()
        # .check_pip_value()
 
+
+@allure.feature('UI TEST: Check currency converter')
+def test_check_converter(browser):
+    browser.open('/calculator/')
+    CalculatorPage(browser) \
+        .go_to_converter() \
+        .check_path_converter_url()
+
 # @allure.feature('UI TEST: Register user')
 # def test_register_user(browser):
 #     browser.open('/calculator/')

@@ -746,3 +746,77 @@ INFO:BrowserLogger:===> Test test_generate_data started
 INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.Nsh9Bn'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:61827'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
 INFO:BrowserLogger:===> Test test_generate_data started
 INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.c3JE8p'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:62749'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.k3Vsl9'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:49985'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Input trading calculator in input {'css': '#searchBox'}
+INFO:MainPage:Find element {'css': '#searchBox'}
+INFO:MainPage:Clicking element: {'css': '[data-auto="search-submit"]'}
+INFO:MainPage:Find element {'css': '[data-auto="search-submit"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.PXVuzU'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:50171'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_open_page started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.YGcj5w'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:50289'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:BrowserLogger:===> Test test_calculate[[{'account_type': 'mini', 'leverage': 2, 'lot': 0.01, 'instrument': 'EURDKKm', 'currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.1Uj7r9'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:50412'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.1Bfrmr'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:50523'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}
+INFO:BrowserLogger:===> Test test_search_calculator started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.UdNiNN'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:51280'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Find element {'css': '[data-auto="icon-search"]'}
+INFO:MainPage:Input trading calculator in input {'css': '#searchBox'}
+INFO:MainPage:Find element {'css': '#searchBox'}
+INFO:MainPage:Clicking element: {'css': '[data-auto="search-submit"]'}
+INFO:MainPage:Find element {'css': '[data-auto="search-submit"]'}
+INFO:BrowserLogger:===> Test test_language started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.rPFpIq'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:51416'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Clicking element: {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Find element {'css': '[id="language-icon"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[data="pt"]'}
+INFO:CalculatorPage:Find element {'css': '[data="pt"]'}
+INFO:BrowserLogger:===> Test test_open_page started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.ieZ1HS'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:51687'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Tools___Services"]'}
+INFO:MainPage:Clicking element: {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:MainPage:Find element {'css': 'li[data-auto="main_menu_Calculator"]'}
+INFO:BrowserLogger:===> Test test_calculate[[{'account_type': 'mini', 'leverage': 2, 'lot': 0.01, 'instrument': 'EURDKKm', 'currency': 'USD'}]] started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.vCao8M'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:51819'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Check if element {'css': '[name="account_type"]'} is present
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Find element {'css': '[name="account_type"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="mt5_mini_real_vc"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Find element {'css': 'select[name="instrument"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Find element {'css': 'option[value="EURDKKm"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Input 0.01 in input {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Find element {'css': 'input[class="inp__field"]'}
+INFO:CalculatorPage:Clicking element: {'css': 'button[data-auto="btn-calc"]'}
+INFO:CalculatorPage:Find element {'css': 'button[data-auto="btn-calc"]'}
+INFO:BrowserLogger:===> Test test_check_parameters started
+INFO:BrowserLogger:Browser chrome started with {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '96.0.4664.93', 'chrome': {'chromedriverVersion': '96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947})', 'userDataDir': '/var/folders/5c/7l6gd_sj1db25q7ptv6y87680000gq/T/.com.google.Chrome.oa9wKk'}, 'goog:chromeOptions': {'debuggerAddress': 'localhost:51935'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'mac os x', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:virtualAuthenticators': True}
+INFO:CalculatorPage:Get element {'css': '.table__body .table__cell:nth-child(1)'} text
+INFO:CalculatorPage:Find element {'css': '.table__body .table__cell:nth-child(1)'}

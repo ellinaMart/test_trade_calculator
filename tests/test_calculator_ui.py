@@ -42,7 +42,7 @@ def test_calculate(browser, params):
     browser.open('/calculator/')
     CalculatorPage(browser) \
         .choose_account_type() \
-        .choose_instrument(params[0]['symbol']) \
+        .choose_instrument(params[0]['instrument']) \
         .choose_lot(str(params[0]["lot"])) \
         .click_calculate()
 
